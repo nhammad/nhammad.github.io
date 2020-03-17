@@ -200,7 +200,7 @@ const talkSection = {
 
 const contactInfo = {
   title: "Contact Me ☎️",
-  subtitle: "Believe I have more potential than what my resume shows? Or simply want to say a hello? Get in touch!",
+  subtitle: "Believe I have more potential than what my resume shows? Or simply wanna say a hello? Get in touch!",
   number: "+4915155705438",
   email_address: "neeha.hammad@hotmail.com"
 };
