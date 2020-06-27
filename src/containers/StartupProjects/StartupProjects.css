@@ -5,6 +5,7 @@
 .startup-projects-main > * {
   flex: 1;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .starup-project-image > img {
@@ -24,6 +25,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
+  
 }
 
 .project-card-description {

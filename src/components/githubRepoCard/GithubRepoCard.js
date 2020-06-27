@@ -2,6 +2,7 @@ import React from "react";
 import "./GithubRepoCard.css";
 
 export default function GithubRepoCard({ repo }) {
+  console.log("working")
   function openRepoinNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
@@ -26,7 +27,7 @@ export default function GithubRepoCard({ repo }) {
               <div className="language-color" style={{ backgroundColor: repo.node.primaryLanguage.color }}></div>
               <p>{repo.node.primaryLanguage.name}</p>
             </span>
-            <span>
+            {/* <span>
               <svg aria-hidden="true" className="octicon" height="16" role="img" viewBox="0 0 10 16" width="10" fill="rgb(106, 115, 125)" className="repo-star-svg">
                 <path
                   fill-rule="evenodd"
@@ -40,7 +41,7 @@ export default function GithubRepoCard({ repo }) {
                 <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
               </svg>
               <p>{repo.node.stargazers.totalCount}</p>
-            </span>
+            </span> */}
           </div>
           <div className="repo-right-stat">
             <p>{repo.node.diskUsage} KB</p>

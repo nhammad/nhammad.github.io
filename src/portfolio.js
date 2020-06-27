@@ -85,34 +85,37 @@ const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
 
-  githubConvertedToken: "Your Github Converted Token",
+  githubConvertedToken: "Yjg3OGM2ZmVmMThkYTU3MjcyNGM2ZGVkODViM2UwMzZiOGZmMjIwMg==",
   githubUserName: "nhammad"
 };
 
 const bigProjects = {
-  /* Some Big Projects You have worked with your company */
-  title: "What Else I've Been Upto",
-  subtitle: "Education: Jacobs University Bremen - BSc. Computer Science",
+//   /* Some Big Projects You have worked with your company */
+  title: "",
+  subtitle: "",
+  //title: "What Else I've Been Upto",
+  //subtitle: "Education: Jacobs University Bremen - BSc. Computer Science",
   projects: [
-    {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-      link: "https://assistant.google.com/services/a/uid/000000617e965fb2",
-      caption: "Google Assistant Action: Python Maestro"
-    },
-    {
-      image: "https://drive.google.com/uc?export=download&id=1FEbgRgWqZZXlHaqBMP3JXTK4AbnqN8ep",
-      link: "https://devpost.com/software/pengwin-7xw5nd",
-      caption: "HackZurich'19: PengWin"
-    }
-    ,
-    {
-      image: "https://drive.google.com/uc?export=download&id=13J6c_KXP0PqTMcotRgmuEBPwa5xC6hCF",
-      link: "https://www.facebook.com/projectagaahi/",
-      caption: "Agaahi: Creating Awareness"
-    },
+    // {
+    //   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
+    //   link: "https://assistant.google.com/services/a/uid/000000617e965fb2",
+    //   caption: "Google Assistant Action: Python Maestro"
+    // },
+    // {
+    //   image: "https://drive.google.com/uc?export=download&id=1FEbgRgWqZZXlHaqBMP3JXTK4AbnqN8ep",
+    //   link: "https://devpost.com/software/pengwin-7xw5nd",
+    //   caption: "HackZurich'19: PengWin"
+    // }
+    // ,
+    // {
+    //   image: "https://drive.google.com/uc?export=download&id=13J6c_KXP0PqTMcotRgmuEBPwa5xC6hCF",
+    //   link: "https://www.facebook.com/projectagaahi/",
+    //   caption: "Agaahi: Creating Awareness"
+    // },
     
   ]
 };
+
 /*https://drive.google.com/uc?export=download&id=128uZXpocpZf9g8armFsDrx3rVJl8EXlC*/
 const achievementSection = {
   /* Your Achievement Section Include Your Certification Talks and More */
@@ -144,7 +147,6 @@ const achievementSection = {
       image: "https://drive.google.com/uc?export=download&id=1AHyo3Deol-2jtTCd6ijK0I4ILbR89ikQ",
       footerLink: [
         { name: "Certification", url: "" },
-        /*{name: "excercises", url: ""},*/
       ]
     }
   ]
@@ -158,6 +160,12 @@ const blogSection = {
 
   blogs: [
     {
+      url: "https://medium.com/@dementorwriter/notesdownloader-use-web-scraping-to-download-all-pdfs-with-python-511ea9f55e48", 
+      image: "https://miro.medium.com/max/700/0*p4M7VFNtohmBhEpu",
+      title: "Web Scraping to Download All PDFs with Python",
+      description: "The idea was to input a link, scrap its source code for all possible PDF files and then download them. "
+    },
+    {
       url: "http://blogs.dunyanews.tv/20144/", 
       image: "https://drive.google.com/uc?export=download&id=14PyDYRRWR--QMTa0pcfTDDidlp0vvY33",
       title: "Take a peek inside the Arfa Kareem Technology Park ",
@@ -169,12 +177,12 @@ const blogSection = {
       title: "Volunteering At a Low Cost Private School",
       description: "I was enraged when a teacher pulled one of my female students out of the class because she wanted someone to take care of her child."
     },
-    {
-      url: "https://nation.com.pk/15-Aug-2019/670638", 
-      image: "https://drive.google.com/uc?export=download&id=1uTs-aBcuUN_QTOq9csCyGfjy96PgvMkc",
-      title: "Book Review: Three Daughters of Eve",
-      description: "The book is a mesmerising journey into romance, and religion"
-    },
+    // {
+    //   url: "https://nation.com.pk/15-Aug-2019/670638", 
+    //   image: "https://drive.google.com/uc?export=download&id=1uTs-aBcuUN_QTOq9csCyGfjy96PgvMkc",
+    //   title: "Book Review: Three Daughters of Eve",
+    //   description: "The book is a mesmerising journey into romance, and religion"
+    // },
   ]
 };
 

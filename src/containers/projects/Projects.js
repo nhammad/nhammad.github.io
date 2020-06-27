@@ -20,6 +20,7 @@ export default function Projects() {
         operation.setContext({
           headers: {
             authorization: `Bearer ${atob("IDBiOWQ4M2JlNjhlMDdhMTY3YmRlYmVhZjNlMjczMTk3YmE3MmNjYjI=")}`
+            //authorization: `Bearer Yjg3OGM2ZmVmMThkYTU3MjcyNGM2ZGVkODViM2UwMzZiOGZmMjIwMg==`,
           }
         });
       }
@@ -28,37 +29,37 @@ export default function Projects() {
     client
       .query({
         query: gql`
-          {
-            repositoryOwner(login: "nhammad") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
-                      }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
-                        name
-                        color
-                      }
+        {
+          user(login: "nhammad") {
+            pinnedItems(first: 6, types: [REPOSITORY]) {
+              totalCount
+              edges {
+                node {
+                  ... on Repository {
+                    name
+                    description
+                    url
+                    id
+                    diskUsage
+                    primaryLanguage {
+                      name
+                      color
                     }
                   }
                 }
               }
             }
           }
+        }
         `
       })
       .then(result => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+        setrepoFunction(result.data.user.pinnedItems.edges);
         console.log(result);
-      });
+        console.log("REOP FUNC", result.data.user.pinnedItems.edges)
+      })
+      .catch(erorr => {console.log("problem", erorr)});
+
   }
 
   function setrepoFunction(array) {
