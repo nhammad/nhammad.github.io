@@ -4,8 +4,9 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hello, I'm Neeha Hammad 👋",
   subTitle:
-    "An eager to learn student with a keen interest in the fields of Data Science and Software Development ✨🌟 Always willing to learn new tech-stack and work with a goal-oriented team!",
-  resumeLink: "https://drive.google.com/file/d/1uv28SQzr_i03yG2pNPLIxsZIUs_-sqSO/view?usp=sharing"
+    "An eager to learn student with a keen interest in the fields of Data Science and Software Development. Always willing to learn new tech-stack and work with a goal-oriented team! ✨🌟 ",
+    bio: "Currently, I am doing my B.S.c in Computer Science from Jacobs University Bremen, working as a student Software Developer at Granny&Smith, and learning machine in my free time.",
+    resumeLink: "https://drive.google.com/file/d/1uv28SQzr_i03yG2pNPLIxsZIUs_-sqSO/view?usp=sharing"
 };
 
 const socialMediaLinks = {
@@ -13,7 +14,8 @@ const socialMediaLinks = {
   github: "https://github.com/nhammad",
   linkedin: "https://www.linkedin.com/in/neehahammad/",
   email: "neeha.hammad@hotmail.com",
-  facebook: "https://www.facebook.com/neeha.hammad1"
+  facebook: "https://www.facebook.com/neeha.hammad1",
+  medium: "https://medium.com/@dementorwriter"
 };
 
 const skillsSection = {
@@ -48,7 +50,7 @@ const skillsSection = {
     {
       skillName: "c",
       fontAwesomeClassname: "fab fa-cuttlefish"
-    }, 
+    },
     {
       skillName: "+",
       fontAwesomeClassname: "fas fa-plus"
@@ -56,7 +58,7 @@ const skillsSection = {
     {
       skillName: "+",
       fontAwesomeClassname: "fas fa-plus"
-    },    
+    },
     {
       skillName: "linux",
       fontAwesomeClassname: "fab fa-linux"
@@ -90,7 +92,7 @@ const openSource = {
 };
 
 const bigProjects = {
-//   /* Some Big Projects You have worked with your company */
+  //   /* Some Big Projects You have worked with your company */
   title: "",
   subtitle: "",
   //title: "What Else I've Been Upto",
@@ -112,7 +114,7 @@ const bigProjects = {
     //   link: "https://www.facebook.com/projectagaahi/",
     //   caption: "Agaahi: Creating Awareness"
     // },
-    
+
   ]
 };
 
@@ -131,7 +133,7 @@ const achievementSection = {
         "https://drive.google.com/uc?export=download&id=1E8Sum7oUYiqiMZHmd4qTW3SHjGK5WxM2",
       footerLink: [
         { name: "Certification", url: "https://www.datacamp.com/statement-of-accomplishment/track/8b20ebca9f5fbf09aa71b07a9fac5a6cf4d44fff" },
-       
+
       ]
     },
     {
@@ -160,13 +162,13 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://medium.com/@dementorwriter/notesdownloader-use-web-scraping-to-download-all-pdfs-with-python-511ea9f55e48", 
+      url: "https://medium.com/@dementorwriter/notesdownloader-use-web-scraping-to-download-all-pdfs-with-python-511ea9f55e48",
       image: "https://miro.medium.com/max/700/0*p4M7VFNtohmBhEpu",
       title: "Web Scraping to Download All PDFs with Python",
       description: "The idea was to input a link, scrap its source code for all possible PDF files and then download them. "
     },
     {
-      url: "http://blogs.dunyanews.tv/20144/", 
+      url: "http://blogs.dunyanews.tv/20144/",
       image: "https://drive.google.com/uc?export=download&id=14PyDYRRWR--QMTa0pcfTDDidlp0vvY33",
       title: "Take a peek inside the Arfa Kareem Technology Park ",
       description: "Plan 9 is a technology incubator, which selects about ten technology start-ups twice a year, after a rigorous competition."

@@ -21,9 +21,9 @@ function Header() {
           <li>
           <a href="#opensource">Github</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#projects">Projects</a>
-          </li>
+          </li> */}
           <li>
           <a href="#achievements">Certifications</a>
           </li>

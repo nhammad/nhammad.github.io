@@ -12,6 +12,7 @@ export default function Greeting() {
           <div>
             <h1 className="greeting-text">{greeting.title}</h1>
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
+            <p className="greeting-text-p subTitle">{greeting.bio}</p>
             <SocialMedia />
             <div className="button-greeting-div">
               <Button text="Contact Me" href="#contact" />

@@ -12,7 +12,7 @@
 .contact-detail,
 .contact-detail-email {
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   color: #868e96;
 }
@@ -29,11 +29,16 @@
   margin-top: 4rem;
 }
 
+.contact-image-div {
+  padding-left: 600px;
+  /* margin-right: 0px; */
+}
+
 .contact-image-div > img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
-  margin-left: 1.5rem;
-  margin-top: -4rem;
+  /* margin-left: 1.5rem;
+  margin-top: -4rem; */
 }
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
@@ -68,7 +73,8 @@
 
 @media only screen and (max-device-width: 481px) {
   /* styles for mobile browsers smaller than 480px; (iPhone) */
-  .contact-image-div {
+  .contact-image-div > img{
     display: none;
+    max-width: 0px;
   }
 }
