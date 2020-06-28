@@ -4,7 +4,12 @@
 .contact-div-main > * {
   flex: 1;
 }
-
+.contact-header {
+  /*background-color: green;
+  display: table-column;
+  justify-content: center;
+  align-items: center; */
+}
 .contact-title {
   font-size: 65px;
   font-weight: 400;
@@ -29,16 +34,16 @@
   margin-top: 4rem;
 }
 
-.contact-image-div {
+/* .contact-image-div {
   padding-left: 600px;
-  /* margin-right: 0px; */
-}
+  /* margin-right: 0px; 
+} */
 
 .contact-image-div > img {
   max-width: 70%;
   height: auto;
-  /* margin-left: 1.5rem;
-  margin-top: -4rem; */
+  margin-left: 1.5rem;
+  margin-top: -4rem;
 }
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
