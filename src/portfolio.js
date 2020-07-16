@@ -5,7 +5,7 @@ const greeting = {
   title: "Hello, I'm Neeha Hammad 👋",
   subTitle:
     "An eager to learn student with a keen interest in the fields of Data Science and Software Development. Always willing to learn new tech-stack and work with a goal-oriented team! ✨🌟 ",
-    bio: "Currently, I am doing my B.S.c in Computer Science from Jacobs University Bremen, working as a student Software Developer at Granny&Smith, and learning machine in my free time.",
+    bio: "Currently, I am doing my B.S.c in Computer Science from Jacobs University Bremen, working as a student Software Developer at Granny&Smith, and exploring machine learning in my free time.",
     resumeLink: "https://drive.google.com/file/d/1uv28SQzr_i03yG2pNPLIxsZIUs_-sqSO/view?usp=sharing"
 };
 
@@ -167,11 +167,17 @@ const blogSection = {
       title: "Web Scraping to Download All PDFs with Python",
       description: "The idea was to input a link, scrap its source code for all possible PDF files and then download them. "
     },
+    // {
+    //   url: "http://blogs.dunyanews.tv/20144/",
+    //   image: "https://drive.google.com/uc?export=download&id=14PyDYRRWR--QMTa0pcfTDDidlp0vvY33",
+    //   title: "Take a peek inside the Arfa Kareem Technology Park ",
+    //   description: "Plan 9 is a technology incubator, which selects about ten technology start-ups twice a year, after a rigorous competition."
+    // },
     {
-      url: "http://blogs.dunyanews.tv/20144/",
-      image: "https://drive.google.com/uc?export=download&id=14PyDYRRWR--QMTa0pcfTDDidlp0vvY33",
-      title: "Take a peek inside the Arfa Kareem Technology Park ",
-      description: "Plan 9 is a technology incubator, which selects about ten technology start-ups twice a year, after a rigorous competition."
+      url: "https://medium.com/better-programming/unlock-a-github-secret-profile-bio-readme-8035dec3b3bb",
+      image: "https://drive.google.com/uc?export=download&id=1dBTX-pU0Of1b9DX36oirTeEmLt1dOAYj",
+      title: "Unlock a GitHub Secret: Profile Bio Readme ",
+      description: "If you’re a developer like me, I bet GitHub is your work buddy. But did you know that there are many secrets to Github?"
     },
     {
       url: "https://nation.com.pk/02-Apr-2017/volunteering-at-a-low-cost-private-school-made-me-feel-blessed-here-s-why-you-should-do-it-too",
