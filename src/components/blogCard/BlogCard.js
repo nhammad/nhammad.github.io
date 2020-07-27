@@ -9,7 +9,6 @@ export default function BlogCard({ blog }) {
           <img src={blog.image} alt="blog" className="blog-card-image mask" />
           <div class="blog-card-title">{blog.title}</div>
           <p className="blog-card-subtitle">{blog.description}</p>
-
           <div>
             <a href={blog.url} target="_" class="button">
               Read More

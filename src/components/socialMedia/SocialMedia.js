@@ -3,7 +3,6 @@ import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
-  console.log("medium link",socialMediaLinks.medium )
   return (
     <div className="social-media-div">
       <a href={socialMediaLinks.github} className="icon-button github" target="_blank">
