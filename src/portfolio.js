@@ -5,8 +5,8 @@ const greeting = {
   title: "Hello, I'm Neeha Hammad 👋",
   subTitle:
     "An eager to learn student with a keen interest in the fields of Data Science and Software Development. Always willing to learn new tech-stack and work with a goal-oriented team! ✨🌟 ",
-    bio: "Currently, I am doing my B.S.c in Computer Science from Jacobs University Bremen, working as a student Software Developer at Granny&Smith, and exploring machine learning in my free time.",
-    resumeLink: "https://drive.google.com/file/d/1uv28SQzr_i03yG2pNPLIxsZIUs_-sqSO/view?usp=sharing"
+    bio: "Currently, I am doing my B.S.c in Computer Science from Jacobs University Bremen, working as a student Data Scientist at Cheil Germany GmbH, and exploring machine learning in my free time.",
+    resumeLink: "https://drive.google.com/file/d/1KD4o_ve1uPiyI6YCnJgcrbwkfDv26u9p/view?usp=sharing"
 };
 
 const socialMediaLinks = {

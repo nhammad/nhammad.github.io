@@ -19,7 +19,6 @@ export default class Main extends Component {
         <Greeting />
         <Skills />
         <Projects />
-        <StartupProject />
         <Achievement />
         <Blogs />
         <Talks />
@@ -30,3 +29,5 @@ export default class Main extends Component {
     );
   }
 }
+
+//<StartupProject />
