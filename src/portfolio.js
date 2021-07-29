@@ -4,9 +4,9 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hello, I'm Neeha Hammad 👋",
   subTitle:
-    "An eager to learn student with a keen interest in the fields of Data Science and Software Development. Always willing to learn new tech-stack and work with a goal-oriented team! ✨🌟 ",
-    bio: "Currently, I am doing my B.S.c in Computer Science from Jacobs University Bremen, working as a student Data Scientist at Cheil Germany GmbH, and exploring machine learning in my free time.",
-    resumeLink: "https://drive.google.com/file/d/1KD4o_ve1uPiyI6YCnJgcrbwkfDv26u9p/view?usp=sharing"
+    "A young professional with a keen interest in the fields of Data Science and Engineering. Always willing to learn new tech-stack and work with a goal-oriented team! ✨🌟 ",
+    bio: "Recently completed my B.S.c in Computer Science from Jacobs University Bremen while working as a student Data Scientist at Cheil Germany GmbH. Now working as a Data Engineer & Consultant at M2. GmbH.",
+    resumeLink: "https://drive.google.com/file/d/17QNh5VqZt4Ce5AzNr00gBCnVEoAVcbYi/view?usp=sharing"
 };
 
 const socialMediaLinks = {
@@ -175,13 +175,13 @@ const blogSection = {
     // },
     {
       url: "https://medium.com/better-programming/unlock-a-github-secret-profile-bio-readme-8035dec3b3bb",
-      image: "https://drive.google.com/uc?export=download&id=1dBTX-pU0Of1b9DX36oirTeEmLt1dOAYj",
+      image: "https://images.unsplash.com/photo-1566241440091-ec10de8db2e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
       title: "Unlock a GitHub Secret: Profile Bio Readme ",
       description: "If you’re a developer like me, I bet GitHub is your work buddy. But did you know that there are many secrets to Github?"
     },
     {
       url: "https://nation.com.pk/02-Apr-2017/volunteering-at-a-low-cost-private-school-made-me-feel-blessed-here-s-why-you-should-do-it-too",
-      image: "https://drive.google.com/uc?export=download&id=1O61vmofPezJCOWSkTZnevblM13Gkq2f-",
+      image: "https://nation.com.pk/digital_images/large/2017-04-02/volunteering-at-a-low-cost-private-school-made-me-feel-blessed-here-s-why-you-should-do-it-too-1491116765-8264.jpg",
       title: "Volunteering At a Low Cost Private School",
       description: "I was enraged when a teacher pulled one of my female students out of the class because she wanted someone to take care of her child."
     },
